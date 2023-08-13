@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //short ifs
+
+        // if bigger than 100 print the number 
+        //if lower than 100 print false
+        let x = 79
+
+
+        //ver1
+        if (x > 100) {
+            console.log(x);
+        } else {
+            console.log("false!");
+        }
+
+        //ver2
+        if (x > 100) console.log(x);
+        else console.log("false!");
+
+        //ver3
+        console.log(x > 100 && x)
+
+        //ver4
+        console.log(x > 100 ? x : "false!")
+
+        //ver5
+        let res = x > 100 ? x : "false!"
+        console.log(res);
+
+
+
+
+    </script>
+</body>
+
+</html>
